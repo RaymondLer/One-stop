@@ -1,0 +1,16 @@
+﻿.jumbotron {
+    background-image: url("../Image/Restaurant.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0;
+}
+
+.bg-text {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    color: black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}

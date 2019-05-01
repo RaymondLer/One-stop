@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="Home" url="Home.aspx">
+      <siteMapNode title="Sign Up" url="Resgister.aspx" />
+      <siteMapNode title="Login" url="Login.aspx" />
+      <siteMapNode title="Logout" url="Logout.aspx" />
+  
+    <siteMapNode title="Customer" roles="Customer">
+      <siteMapNode title="Reserve" url="Reserve.aspx" />
+      <siteMapNode title="Booking" url="Booking.aspx" />
+      <siteMapNode title="Food Order" url="FoodOrder.aspx" />
+      <siteMapNode title="Payment" url="Payment.aspx" />
+      <siteMapNode title="Check In" url="CheckIn.aspx" />
+      <siteMapNode title="My Profile" url="MyProfile.aspx" />
+    </siteMapNode>
+  
+    <siteMapNode title="Admin" roles="Admin">
+      <siteMapNode title="Register Staff" url="RegisterStaff.aspx" />
+      <siteMapNode title="Register Admin" url="RegisterAdmin.aspx" />
+      <siteMapNode title="Summary Report" url="SummaryReport.aspx" />
+      <siteMapNode title="Reservation Summary Report" url="ReservationSummary.aspx" />
+      <siteMapNode title="Detail Report" url="DetailReport.aspx" />
+      <siteMapNode title="Exception Report" url="ExceptionReport.aspx" />
+    </siteMapNode>
+
+    <siteMapNode title="Staff" roles="Staff">
+      <siteMapNode title="Reservation Detail" url="ReservationDetail.aspx" />
+      <siteMapNode title="Insert Food" url="InsertFood.aspx" />
+      <siteMapNode title="Food Menu" url="foodmenu.aspx" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
